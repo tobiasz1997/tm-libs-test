@@ -7,6 +7,7 @@
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
@@ -14,7 +15,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@tm-workspace/header": ["libs/header/src/index.ts"],
+      "@tm/button": ["libs/button/src/index.ts"],
+      "@tm/footer": ["dist/libs/footer", "libs/footer/src/index.ts"],
+      "@tm/layout": ["libs/layout/src/index.ts"],
+      "@tm/ui": ["libs/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
