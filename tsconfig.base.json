@@ -16,10 +16,12 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@tm-workspace/header": ["libs/header/src/index.ts"],
       "@tm/button": ["libs/button/src/index.ts"],
-      "@tm/footer": ["dist/libs/footer", "libs/footer/src/index.ts"],
-      "@tm/layout": ["libs/layout/src/index.ts"],
+      "@tm/counter": ["libs/counter/src/index.ts"],
+      "@tm/page": ["libs/page/src/index.ts"],
+      "@tm/page/footer": ["libs/page/footer/src/index.ts"],
+      "@tm/page/header": ["libs/page/header/src/index.ts"],
+      "@tm/page/layout": ["libs/page/layout/src/index.ts"],
       "@tm/ui": ["libs/ui/src/index.ts"]
     }
   },

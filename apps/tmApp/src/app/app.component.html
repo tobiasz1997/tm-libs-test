@@ -1,9 +1,9 @@
-<lib-header title="Welcome in this test"></lib-header>
+<tm-header title="Welcome in this test"></tm-header>
 <tm-layout>
     <tm-title title="app title"></tm-title>
     <tm-description description="app description"></tm-description>
-    <tm-button label="click me"></tm-button>
+    <tm-button label="click me" (callback)="handle()"></tm-button>
     <tm-card></tm-card>
-    <tm-footer></tm-footer>
+    <tm-counter></tm-counter>
 </tm-layout>
 <router-outlet></router-outlet>

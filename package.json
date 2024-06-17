@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start": "npx nx serve tmApp",
-    "build": "npx nx run-many -t build -p footer button layout ui"
+    "build": "npx nx run-many -t build -p button page ui counter --skipNxCache"
   },
   "private": true,
   "dependencies": {
